@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const ejsMate = require("ejs-mate");
 const CampGround = require("./models/campground");
 const methodOverride = require("method-override");
-
+//This is a test coming from the windows vsCode continue
 mongoose.set("strictQuery", false);
 mongoose.connect("mongodb://localhost:27017/yelp-camp", {
   useNewUrlParser: true,
